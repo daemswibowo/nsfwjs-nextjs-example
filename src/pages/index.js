@@ -65,8 +65,8 @@ export default function Home() {
             onLoad={async () => await classify()}
             id="img"
             alt="gambar"
-            src="/images/4.jpeg"
-            // src="https://assets.karyakarsa.com/image-64a6378344b30.png@800w.jpg"
+            // dummy image from https://picsum.photos/
+            src="https://picsum.photos/200/300"
           />
         )}
 
